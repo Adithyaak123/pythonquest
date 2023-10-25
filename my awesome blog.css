@@ -1,0 +1,64 @@
+body{
+    background-color: lightblue;
+}
+.main{
+    height: 60%;
+    width: 60%;
+    background-color: white;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    top: 0;
+}
+li {
+    position:relative;
+    display: inline;
+}
+.image{
+    background-color: greenyellow;
+    
+}
+img{
+    padding-left:30%;
+    padding-right:30%;
+    width: 200px;
+
+
+}
+.space{
+    padding-left: 15px;
+    justify-content: left;
+}
+h3{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.child{
+    float: right;
+    background-color: yellow;
+    height: 150px;
+    position:fixed;
+    bottom: 200px;
+    right:350px;
+    width: 200px;
+   
+}
+h4{
+    font-weight: bold;
+}
+.one{
+    background-color:lightcoral;
+    border-radius: 10px;
+    margin-top: 0%;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+#link{
+    margin-top: 0%;
+    color: black;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

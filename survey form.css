@@ -1,0 +1,26 @@
+body{
+    background-image: url(sea.jpg);
+    object-fit: fill;
+}
+h1{
+    text-align: center;
+}
+.form {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 700px;
+    height: 600px;
+    position: relative;
+    left: 300px;
+}
+.right{
+    text-align: right;
+}
+#btn{
+    position: relative;
+    left: 300px;
+    width: 70px;
+    background-color: brown;
+    color: blue;
+    height: 40px;
+}

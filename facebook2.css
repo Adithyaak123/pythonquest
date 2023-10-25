@@ -1,0 +1,119 @@
+.heading{
+    color:white;
+    position: relative;
+    left:80px;
+    /* top: 8px; */
+    font-size: 25px;
+}
+.one{
+    background-color: #5b7bc0;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form1{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding-top: 15px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    line-height: normal;
+    /* padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 50px; */
+}
+#p1{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* padding-top: 40px; */
+}
+#p4{
+    color: lightslategray;
+    font-weight: bold;
+    line-height: 20px;
+}
+.right{
+    /* padding-top: 20px;
+    right: 50px; */
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+#p2{
+    font-size: 20px;
+    margin-top:0;
+}
+input.sub{
+    width: 200px;
+    border: none;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+}
+label.sub,a.sub{
+    color: white;
+}
+input.sub:hover{
+    border: 2px solid lightseagreen;
+}
+.submit1{
+    background-color: burlywood;
+    color: white;
+    border-radius: 5px;
+    width:60px;
+    height:35px;
+    /* padding-top: 3px; */
+}
+.submit1:hover,.submit:hover{
+    background-color: aquamarine;
+    color: darkred;
+}
+#small{
+    width: 350px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:white;
+}
+#namebox,#small{
+    height: 30px;
+}
+#im1{
+    height:300px;
+    width: 350px;
+
+}
+#lb1{
+    /* color:darkgrey; */
+    font-size: 15px;
+}
+#gender{
+    margin-top: 15px;
+    gap: 50px;
+}
+.submit{
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color:green;
+}
+/* .submit:hover{
+    background-color:lightskyblue;
+    color:darkorchid;
+} */
+#namebox:hover,#small:hover{
+    border: 3px solid darkred;
+}
+
